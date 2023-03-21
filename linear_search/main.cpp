@@ -21,7 +21,7 @@ int main (){
 	for (int i = 0; i < N; i++)
 		pA[i] = rand() % 32768;
 	int answer = search (pA, N, x);
-	((answer < N)&&(answer >= 0)) ? std::cout << "nA[" << answer << "] = " << x << std::endl
+	((answer < N)&&(answer >= 0)) ? std::cout << "A[" << answer << "] = " << x << std::endl
 				      : std::cout << x << " is not in array" << std::endl;
 	delete[] pA;
 	return 0;
