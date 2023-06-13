@@ -30,6 +30,18 @@ This repository has been created to store all the tutorial projects I've written
 ***
 ## Linear Search
 <a name="Linear_Search"></a>
-Linear search is a method for finding an element within a list. 
-A linear search sequentially checks each element of the list until it finds an element that matches the target value. 
+  A linear search sequentially checks each element of the list until it finds an element that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
+### Algorithm
+  A linear search sequentially checks each element of the list until it finds an element that 
+matches the target value. 
+If the algorithm reaches the end of the list, the search terminates unsuccessfully.
+
+***
+## Binary search
+<a name="Binary_Search"></a>
+  Binary search compares the target value to the middle element of the array. 
+  If they are not equal, the half in which the target cannot lie is eliminated
+  and the search continues on the remaining half, again taking the middle element
+  to compare to the target value, and repeating this until the target value is found. 
+  If the search ends with the remaining half being empty, the target is not in the array. 
