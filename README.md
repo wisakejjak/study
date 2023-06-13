@@ -52,4 +52,5 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
   continues in the lower half of the array. If the target value is greater than the element,
   the search continues in the upper half of the array. By doing this, the algorithm eliminates
   the half in which the target value cannot lie in each iteration.
+  ***
   
