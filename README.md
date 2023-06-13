@@ -28,7 +28,8 @@ This repository has been created to store all the tutorial projects I've written
 25. [Gnome sort](#Gnome_sort)
 26. [Odd-even sort](#Odd–even_sort)
 ***
-## Linear Search <a name="Linear_Search"></a>
+## Linear Search
+<a name="Linear_Search"></a>
 Linear search is a method for finding an element within a list. 
 A linear search sequentially checks each element of the list until it finds an element that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
