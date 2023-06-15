@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 
-int search (int* pA, int N, int x){ //linear search
+int linear_search (int* pA, int N, int x){ //linear search
 				    //pA - pointer to array
 				    //N - size of array
 				    //x - desired number
@@ -12,17 +13,17 @@ int search (int* pA, int N, int x){ //linear search
 }
 
 int main (void){
-	printf("Size of array from 1 to 999999:\n");
+	printf("Size of array from 1 to %i:\n", INT_MAX);
 	int N;
 	scanf("%d", &N);
-	printf("Number to search from 0 to 32767:\n");
+	printf("Number to search from 0 to %i:\n", INT_MAX-1);
 	int x;
 	scanf("%d", &x);
 	int* pA = (int*) malloc(N*sizeof(int));
 	for (int i = 0; i < N; i++){
-		*(pA+i) = rand() % 32768;
+		*(pA+i) = rand() % INT_MAX-1;
 	}
-	int answer = search (pA, N, x);
+	int answer = linear_search (pA, N, x);
 	((answer < N)&&(answer >= 0)) ? printf ("nA[%d] = %d\n", answer, x)
 				      : printf ("%d is not in array\n", x);
 	return 0;
