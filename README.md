@@ -52,5 +52,100 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
   continues in the lower half of the array. If the target value is greater than the element,
   the search continues in the upper half of the array. By doing this, the algorithm eliminates
   the half in which the target value cannot lie in each iteration.
-  ***
-  
+***
+## Quicksort
+<a name="Quicksort"></a>
+### Algorithm
+***
+## Merge sort
+<a name="Merge_Sort"></a>
+### Algorithm
+***
+## In-place merge sort
+<a name="In_place_merge_Sort"></a>
+### Algorithm
+***
+## Introsort
+<a name="Introsort"></a>
+### Algorithm
+***
+## Heapsort
+<a name="Heapsort"></a>
+### Algorithm
+***
+## Insertion sort
+<a name="Insertion_Sort"></a>
+### Algorithm
+***
+## Block sort
+<a name="Block_Sort"></a>
+### Algorithm
+***
+## Timsort
+<a name="Timsort"></a>
+### Algorithm
+***
+## Selection sort
+<a name="Selection_Sort"></a>
+### Algorithm
+***
+## Cubesort
+<a name="Cubesort"></a>
+### Algorithm
+***
+## Shellsort
+<a name="Shellsort"></a>
+### Algorithm
+***
+## Bubble sort
+<a name="Bubble_sort"></a>
+### Algorithm
+***
+## Exchange sort
+<a name="Exchange_sort"></a>
+### Algorithm
+***
+## Tree sort
+<a name="Tree_sort"></a>
+### Algorithm
+***
+## Cycle sort
+<a name="Cycle_sort"></a>
+### Algorithm
+***
+## Library sort
+<a name="Library_sort"></a>
+### Algorithm
+***
+## Patience sorting
+<a name="Patience_sorting"></a>
+### Algorithm
+***
+## Smoothsort
+<a name="Smoothsort"></a>
+### Algorithm
+***
+## Strand sort
+<a name="Strand_sort"></a>
+### Algorithm
+***
+## Tournament sort
+<a name="Tournament_sort"></a>
+### Algorithm
+***
+## Cocktail shaker sort
+<a name="Cocktail_shaker_sort"></a>
+### Algorithm
+***
+## Comb sort
+<a name="Comb_sort"></a>
+### Algorithm
+***
+## Gnome sort
+<a name="Gnome_sort"></a>
+### Algorithm
+***
+## Odd-even sort
+<a name="Odd–even_sort"></a>
+### Algorithm
+***
