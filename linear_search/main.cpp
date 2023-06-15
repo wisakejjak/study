@@ -11,7 +11,7 @@ int search (int* pA, int N, int x){ //linear search
 }
 
 int main (){
-	std::cout << "Size of array from: " << std::endl;
+	std::cout << "Size of array: " << std::endl;
 	int N;
 	std::cin >> N;
 	std::cout << "Number to search from 0 to 32767: " << std::endl;
