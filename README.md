@@ -28,8 +28,8 @@ This repository has been created to store all the tutorial projects I've written
 25. [Gnome sort](#Gnome_sort)
 26. [Odd-even sort](#Odd–even_sort)
 ***
-## Linear Search
 <a name="Linear_Search"></a>
+## Linear Search
   A linear search sequentially checks each element of the list until it finds an element that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
 ### Algorithm
@@ -38,8 +38,8 @@ matches the target value.
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
 [:arrow_up:About](#About)
 ***
-## Binary search
 <a name="Binary_Search"></a>
+## Binary search
   Binary search compares the target value to the middle element of the array. 
   If they are not equal, the half in which the target cannot lie is eliminated
   and the search continues on the remaining half, again taking the middle element
@@ -54,123 +54,123 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
   the half in which the target value cannot lie in each iteration.
 [:arrow_up:About](#About)
 ***
-## Quicksort
 <a name="Quicksort"></a>
+## Quicksort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Merge sort
 <a name="Merge_Sort"></a>
+## Merge sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## In-place merge sort
 <a name="In_place_merge_Sort"></a>
+## In-place merge sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Introsort
 <a name="Introsort"></a>
+## Introsort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Heapsort
 <a name="Heapsort"></a>
+## Heapsort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Insertion sort
 <a name="Insertion_Sort"></a>
+## Insertion sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Block sort
 <a name="Block_Sort"></a>
+## Block sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Timsort
 <a name="Timsort"></a>
+## Timsort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Selection sort
 <a name="Selection_Sort"></a>
+## Selection sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Cubesort
 <a name="Cubesort"></a>
+## Cubesort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Shellsort
 <a name="Shellsort"></a>
+## Shellsort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Bubble sort
 <a name="Bubble_sort"></a>
+## Bubble sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Exchange sort
 <a name="Exchange_sort"></a>
+## Exchange sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Tree sort
 <a name="Tree_sort"></a>
+## Tree sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Cycle sort
 <a name="Cycle_sort"></a>
+## Cycle sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Library sort
 <a name="Library_sort"></a>
+## Library sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Patience sorting
 <a name="Patience_sorting"></a>
+## Patience sorting
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Smoothsort
 <a name="Smoothsort"></a>
+## Smoothsort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Strand sort
 <a name="Strand_sort"></a>
+## Strand sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Tournament sort
 <a name="Tournament_sort"></a>
+## Tournament sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Cocktail shaker sort
 <a name="Cocktail_shaker_sort"></a>
+## Cocktail shaker sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Comb sort
 <a name="Comb_sort"></a>
+## Comb sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Gnome sort
 <a name="Gnome_sort"></a>
+## Gnome sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
-## Odd-even sort
 <a name="Odd–even_sort"></a>
+## Odd-even sort
 ### Algorithm
 [:arrow_up:About](#About)
 ***
