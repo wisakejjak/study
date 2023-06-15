@@ -36,7 +36,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
   A linear search sequentially checks each element of the list until it finds an element that 
 matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Binary search
 <a name="Binary_Search"></a>
@@ -52,125 +52,125 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
   continues in the lower half of the array. If the target value is greater than the element,
   the search continues in the upper half of the array. By doing this, the algorithm eliminates
   the half in which the target value cannot lie in each iteration.
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Quicksort
 <a name="Quicksort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Merge sort
 <a name="Merge_Sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## In-place merge sort
 <a name="In_place_merge_Sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Introsort
 <a name="Introsort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Heapsort
 <a name="Heapsort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Insertion sort
 <a name="Insertion_Sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Block sort
 <a name="Block_Sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Timsort
 <a name="Timsort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Selection sort
 <a name="Selection_Sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Cubesort
 <a name="Cubesort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Shellsort
 <a name="Shellsort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Bubble sort
 <a name="Bubble_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Exchange sort
 <a name="Exchange_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Tree sort
 <a name="Tree_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Cycle sort
 <a name="Cycle_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Library sort
 <a name="Library_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Patience sorting
 <a name="Patience_sorting"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Smoothsort
 <a name="Smoothsort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Strand sort
 <a name="Strand_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Tournament sort
 <a name="Tournament_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Cocktail shaker sort
 <a name="Cocktail_shaker_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Comb sort
 <a name="Comb_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Gnome sort
 <a name="Gnome_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
 ## Odd-even sort
 <a name="Odd–even_sort"></a>
 ### Algorithm
-[:arrow_up:Оглавление](#Оглавление)
+[:arrow_up:About](#About)
 ***
