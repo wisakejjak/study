@@ -1,8 +1,8 @@
 # About
 This repository has been created to store all the tutorial projects I've written.
 I will try to place each tutorial project in C and C++.
-It's also a great opportunity to learn Git.
-Now all these projects consist of search and sorting algorithms, which are the basis for other more complex projects.
+All these projects consist of search and sorting algorithms, which are the basis for other more complex projects.
+It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++
 ***
 # Content
 1. [Linear Search](#Linear_Search)
