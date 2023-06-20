@@ -7,7 +7,7 @@ int linear_search (int* pA, int N, int x){ //linear search
 				    //N - size of array
 				    //x - desired number
 	for (int i = 0; i < N; i++)
-		if (*(pA+i) == x)
+		if (pA[i] == x)
 			return i;
 	return -1;
 }
@@ -24,7 +24,7 @@ int main (void){
 		*(pA+i) = rand() % INT_MAX-1;
 	}
 	int answer = linear_search (pA, N, x);
-	((answer < N)&&(answer >= 0)) ? printf ("nA[%d] = %d\n", answer, x)
-				      : printf ("%d is not in array\n", x);
+	((answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
+               : printf ("%d is not in array\n", x);
 	return 0;
 }

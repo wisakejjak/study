@@ -5,7 +5,7 @@ int linear_search (int* pA, int N, int x){ //linear search
 				    //pA - pointer to array
 				    //N - size of array
 				    //x - desired number
-	for (int i = 0; i < N; i++)
+	for (int i = 0; i < N; ++i)
 		if (pA[i] == x)
 			return i;
 	return -1;
@@ -22,8 +22,8 @@ int main (){
 	for (int i = 0; i < N; i++)
 		pA[i] = rand() % (INT_MAX-1);
 	int answer = search (pA, N, x);
-	((answer < N)&&(answer >= 0)) ? std::cout << "A[" << answer << "] = " << x << std::endl
-				      : std::cout << x << " is not in array" << std::endl;
+	((answer != -1) ? std::cout << "A[" << answer << "] = " << x << std::endl
+	                : std::cout << x << " is not in array" << std::endl;
 	delete[] pA;
 	return 0;
 
