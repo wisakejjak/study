@@ -1,6 +1,10 @@
 # About
 This repository has been created to store all the tutorial projects I've written.
-
+I will try to place each tutorial project in C and C++.
+All these projects consist of search and sorting algorithms, which are the basis for other more complex projects.
+It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++
+***
+# Content
 1. [Linear Search](#Linear_Search)
 2. [Binary search](#Binary_Search)
 3. [Quicksort](#Quicksort)
@@ -28,18 +32,18 @@ This repository has been created to store all the tutorial projects I've written
 25. [Gnome sort](#Gnome_sort)
 26. [Odd-even sort](#Odd–even_sort)
 ***
-## Linear Search
 <a name="Linear_Search"></a>
+## Linear Search
   A linear search sequentially checks each element of the list until it finds an element that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
 ### Algorithm
   A linear search sequentially checks each element of the list until it finds an element that 
 matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
-
+[:arrow_up:Content](#Content)
 ***
-## Binary search
 <a name="Binary_Search"></a>
+## Binary search
   Binary search compares the target value to the middle element of the array. 
   If they are not equal, the half in which the target cannot lie is eliminated
   and the search continues on the remaining half, again taking the middle element
@@ -52,5 +56,125 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
   continues in the lower half of the array. If the target value is greater than the element,
   the search continues in the upper half of the array. By doing this, the algorithm eliminates
   the half in which the target value cannot lie in each iteration.
-  ***
-  
+[:arrow_up:Content](#Content)
+***
+<a name="Quicksort"></a>
+## Quicksort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Merge_Sort"></a>
+## Merge sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="In_place_merge_Sort"></a>
+## In-place merge sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Introsort"></a>
+## Introsort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Heapsort"></a>
+## Heapsort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Insertion_Sort"></a>
+## Insertion sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Block_Sort"></a>
+## Block sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Timsort"></a>
+## Timsort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Selection_Sort"></a>
+## Selection sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Cubesort"></a>
+## Cubesort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Shellsort"></a>
+## Shellsort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Bubble_sort"></a>
+## Bubble sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Exchange_sort"></a>
+## Exchange sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Tree_sort"></a>
+## Tree sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Cycle_sort"></a>
+## Cycle sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Library_sort"></a>
+## Library sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Patience_sorting"></a>
+## Patience sorting
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Smoothsort"></a>
+## Smoothsort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Strand_sort"></a>
+## Strand sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Tournament_sort"></a>
+## Tournament sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Cocktail_shaker_sort"></a>
+## Cocktail shaker sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Comb_sort"></a>
+## Comb sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Gnome_sort"></a>
+## Gnome sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
+<a name="Odd–even_sort"></a>
+## Odd-even sort
+### Algorithm
+[:arrow_up:Content](#Content)
+***
