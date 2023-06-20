@@ -26,5 +26,6 @@ int main (void){
 	int answer = linear_search (pA, N, x);
 	((answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
                         : printf ("%d is not in array\n", x);
+	free(pA);
 	return 0;
 }
