@@ -21,9 +21,9 @@ int main (){
 	int* pA = new int[N];
 	for (int i = 0; i < N; i++)
 		pA[i] = rand() % (INT_MAX-1);
-	int answer = search (pA, N, x);
-	((answer != -1) ? std::cout << "A[" << answer << "] = " << x << std::endl
-	                : std::cout << x << " is not in array" << std::endl;
+	int answer = linear_search (pA, N, x);
+	(answer != -1) ? std::cout << "A[" << answer << "] = " << x << std::endl
+	               : std::cout << x << " is not in array" << std::endl;
 	delete[] pA;
 	return 0;
-
+}

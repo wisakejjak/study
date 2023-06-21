@@ -24,7 +24,8 @@ int main (void){
 		*(pA+i) = rand() % INT_MAX-1;
 	}
 	int answer = linear_search (pA, N, x);
-	((answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
-               : printf ("%d is not in array\n", x);
-	return 0;
+	(answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
+                   : printf ("%d is not in array\n", x);
+	free(pA);
+    return 0;
 }
