@@ -27,5 +27,5 @@ int main (void){
 	(answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
                    : printf ("%d is not in array\n", x);
 	free(pA);
-    return 0;
+    	return 0;
 }
