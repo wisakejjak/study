@@ -21,7 +21,7 @@ int main (void){
 	scanf("%d", &x);
 	int* pA = (int*) malloc(N*sizeof(int));
 	for (int i = 0; i < N; i++){
-		*(pA+i) = rand() % INT_MAX-1;
+		pA[i] = rand() % INT_MAX-1;
 	}
 	int answer = linear_search (pA, N, x);
 	(answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
