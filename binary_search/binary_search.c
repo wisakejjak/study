@@ -13,11 +13,11 @@ int binary_search (int* pA, int N, int x){ //linear search
     while (left_side <= right_side)
     {
         middle = floor((left_side + right_side)/2);
-        if (*(pA+middle) < x)
+        if (pA[middle] < x)
         {
             left_side = middle + 1;
         }
-        else if (*(pA+middle) > x)
+        else if (pA[middle] > x)
         {
             right_side = middle - 1;
         }
@@ -35,10 +35,11 @@ int main (void){
 	scanf("%d", &x);
 	int* pA = (int*) malloc(N*sizeof(int));
 	for (int i = 0; i < N; i++){
-		*(pA+i) = i;
+		pA[i] = i;
 	}
 	int answer = binary_search (pA, N, x);
-	((answer < N)&&(answer >= 0)) ? printf ("nA[%d] = %d\n", answer, x)
-				      : printf ("%d is not in array\n", x);
-	return 0;
+	(answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
+				    : printf ("%d is not in array\n", x);
+	free(pA);
+    return 0;
 }
