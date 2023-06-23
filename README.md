@@ -50,17 +50,28 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
   to compare to the target value, and repeating this until the target value is found. 
   If the search ends with the remaining half being empty, the target is not in the array.
 ### Algorithm
-  Binary search works on sorted arrays. Binary search begins by comparing an element in the 
-  middle of the array with the target value. If the target value matches the element, its 
-  position in the array is returned. If the target value is less than the element, the search
-  continues in the lower half of the array. If the target value is greater than the element,
-  the search continues in the upper half of the array. By doing this, the algorithm eliminates
-  the half in which the target value cannot lie in each iteration.
+  Binary search works on sorted arrays. Binary search begins by comparing an element in
+  the  middle of the array with the target value. If the target value matches the
+  element, its position in the array is returned. If the target value is less than
+  the element, the search continues in the lower half of the array. If the target value
+  is greater than the element, the search continues in the upper half of the array.
+  By doing this, the algorithm elimin tes the half in which the target value cannot lie
+  in each iteration.
+
 [:arrow_up:Content](#Content)
 ***
 <a name="Quicksort"></a>
 ## Quicksort
+    Quicksort (Tony Hoare) is a divide-and-conquer algorithm. It works by selecting a
+    'pivot' element from the array and partitioning the other elements into two
+    sub-arrays, according to whether they are less than or greater than the pivot.
 ### Algorithm
+    1.  Choose a pivot element from the array.
+    2. Partition the array into two sub-arrays: one with elements less than the pivot and
+    another with elemens greater than the pivot.
+    3. Recursively sort each of sub-arrays by repeating steps 1 and 2 until all sub-arrays
+    are sorted.
+    4. Combine the sub-arrays to get the final sorted array.
 [:arrow_up:Content](#Content)
 ***
 <a name="Merge_Sort"></a>
