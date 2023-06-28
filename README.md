@@ -48,7 +48,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 A linear search sequentially checks each element of the list until it finds an element that
 matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 
 <a name="Binary_Search"></a>
@@ -70,7 +70,7 @@ Binary search works on sorted arrays. Binary search begins by comparing an eleme
   By doing this, the algorithm elimin tes the half in which the target value cannot lie
   in each iteration.
 
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 
 ***
 
@@ -91,122 +91,122 @@ another with elemens greater than the pivot.
 are sorted.
 4. Combine the sub-arrays to get the final sorted array.
 
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 <!---
 ***
 <a name="Merge_Sort"></a>
 ## Merge sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="In_place_merge_Sort"></a>
 ## In-place merge sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Introsort"></a>
 ## Introsort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Heapsort"></a>
 ## Heapsort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Insertion_Sort"></a>
 ## Insertion sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Block_Sort"></a>
 ## Block sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Timsort"></a>
 ## Timsort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Selection_Sort"></a>
 ## Selection sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Cubesort"></a>
 ## Cubesort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Shellsort"></a>
 ## Shellsort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Bubble_sort"></a>
 ## Bubble sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Exchange_sort"></a>
 ## Exchange sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Tree_sort"></a>
 ## Tree sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Cycle_sort"></a>
 ## Cycle sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Library_sort"></a>
 ## Library sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Patience_sorting"></a>
 ## Patience sorting
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Smoothsort"></a>
 ## Smoothsort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Strand_sort"></a>
 ## Strand sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Tournament_sort"></a>
 ## Tournament sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Cocktail_shaker_sort"></a>
 ## Cocktail shaker sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Comb_sort"></a>
 ## Comb sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Gnome_sort"></a>
 ## Gnome sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 <a name="Odd–even_sort"></a>
 ## Odd-even sort
 ### Algorithm
-[:arrow_up:Content](#Content)
+[:arrow_up:Back to top](#Content)
 ***
 --->
