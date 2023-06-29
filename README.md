@@ -121,16 +121,14 @@ element at a time and inserting it into its correct position within the sorted s
 This process continues until the entire array is sorted.
 
 #### Algorithm
-
-
-    1. Start with the second element (index 1) of the array.
-    2. Compare the second element with the first element (the only element in the sorted section).
-    3. If the second element is smaller, swap them so that they are in the correct order.
-    4. Move to the third element (index 2) and compare it with the elements in the sorted section.
-    5. Continuously compare the current element with the elements in the sorted section, moving from right to left, until you find the correct position for the current element.
-    6. Insert the current element into its correct position within the sorted section by shifting all larger elements one position to the right.
-    7. Repeat steps 4-6 for all the remaining unsorted elements.
-    8. Once all elements have been processed, the array will be sorted.
+1. Start with the 2nd element of the array.
+2. Compare the 2nd element with the 1st element (the only element in the sorted section).
+3. If the 2nd element is smaller, swap them so that they are in the correct order.
+4. Move to the 3rd element and compare it with the elements in the sorted section.
+5. Continuously compare the current element with the elements in the sorted section, moving from right to left, until you find the correct position for the current element.
+6. Insert the current element into its correct position within the sorted section by shifting all larger elements one position to the right.
+7. Repeat steps 4-6 for all the remaining unsorted elements.
+8. Once all elements have been processed, the array will be sorted.
 
 [:arrow_up:Back to top](#Content)
 
