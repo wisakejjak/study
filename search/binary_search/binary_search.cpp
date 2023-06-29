@@ -1,10 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <climits>
-int binary_search (int* pA, int N, int x){ //linear search
-				    //pA - pointer to array
-				    //N - size of array
-				    //x - desired number
+//pA - pointer to array, N - size of array, x - desired number
+int binary_search (int* pA, int N, int x){ 
 	int left_side = 0;
     int right_side = N - 1;
     int middle = 0;

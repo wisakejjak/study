@@ -2,12 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include <limits.h>
-
-int binary_search (int* pA, int N, int x){ //linear search
-				    //pA - pointer to array
-				    //N - size of array
-				    //x - desired number
-	int left_side = 0;
+//pA - pointer to array, N - size of array, x - desired number
+int binary_search (int* pA, int N, int x){
+    int left_side = 0;
     int right_side = N-1;
     int middle = 0;
     while (left_side <= right_side)
