@@ -1,212 +1,231 @@
-# About
+## About
 This repository has been created to store all the tutorial projects I've written.
 I will try to place each tutorial project in C and C++.
-All these projects consist of search and sorting algorithms, which are the basis for other more complex projects.
+All these projects consist of search and sorting algorithms, which are the basis for other more complex projects. Also, these projects consist Data Structures.
 It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++.
 Perhaps later, there will be something in Java.
 ***
-# Content
-1. [Linear Search](#Linear_Search)
-2. [Binary search](#Binary_Search)
-3. [Quicksort](#Quicksort)
-<!---
-4. [Merge sort](#Merge_Sort) 
-5. [In-place merge sort](#In_place_merge_Sort)
-6. [Introsort](#Introsort)
-7. [Heapsort](#Heapsort)
-8. [Insertion sort](#Insertion_Sort)
-9. [Block sort](#Block_Sort)
-10. [Timsort](#Timsort)
-11. [Selection sort](#Selection_Sort)
-12. [Cubesort](#Cubesort)
-13. [Shellsort](#Shellsort)
-14. [Bubble sort](#Bubble_sort)
-15. [Exchange sort](#Exchange_sort)
-16. [Tree sort](#Tree_sort)
-17. [Cycle sort](#Cycle_sort)
-18. [Library sort](#Library_sort)
-19. [Patience sorting](#Patience_sorting)
-20. [Smoothsort](#Smoothsort)
-21. [Strand sort](#Strand_sort)
-22. [Tournament sort](#Tournament_sort)
-23. [Cocktail shaker sort](#Cocktail_shaker_sort)
-24. [Comb sort](#Comb_sort)
-25. [Gnome sort](#Gnome_sort)
-26. [Odd-even sort](#Odd–even_sort)
+<a name="Content"></a>
+## Content
+ 1. [Searching algorithms](#Search)
+  * [Linear search](#Linear_Search)
+  * [Binary search](#Binary_Search)
+ 2. [Sorting algorithms](#Sort)
+  * [Quicksort](#Quicksort)
+<!--  * [Merge sort](#Merge_Sort) 
+  * [In-place merge sort](#In_place_merge_Sort)
+  * [Introsort](#Introsort)
+  * [Heapsort](#Heapsort)
+  * [Insertion sort](#Insertion_Sort)
+  * [Block sort](#Block_Sort)
+  * [Timsort](#Timsort)
+  * [Selection sort](#Selection_Sort)
+  * [Cubesort](#Cubesort)
+  * [Shellsort](#Shellsort)
+  * [Bubble sort](#Bubble_sort)
+  * [Exchange sort](#Exchange_sort)
+  * [Tree sort](#Tree_sort)
+  * [Cycle sort](#Cycle_sort)
+  * [Library sort](#Library_sort)
+  * [Patience sorting](#Patience_sorting)
+  * [Smoothsort](#Smoothsort)
+  * [Strand sort](#Strand_sort)
+  * [Tournament sort](#Tournament_sort)
+  * [Cocktail shaker sort](#Cocktail_shaker_sort)
+  * [Comb sort](#Comb_sort)
+  * [Gnome sort](#Gnome_sort)
+  * [Odd-even sort](#Odd–even_sort)
+3. [Data Structures](#Data_Structures)
+  * [Array](#Array)
+  * [String](#String)
+  * [List](#List)
+  * [Vector](#Vector)
+  * [Queue](#Queues)
+  * [Stack](#Stack)
+  * [Set](#Set)
+  * [Binary Tree](#Binary_Tree)
+  * [Graph](#Graph)
 --->
 ***
 
 <a name="Linear_Search"></a>
 
-## Linear Search
-
+### Linear Search
 A linear search sequentially checks each element of the list until it finds an element
 that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
-### Algorithm
+#### Algorithm
+1. Start at the beginning.
+2. Compare the first element with the target.
+3. If the current element matches the target value, the search is successful.
+4. If the current element does not match the target value, move to the next element.
+5. Repeat steps 3 and 4.
+6. If you reach the end of the list without finding a match, the target value is not present in the list or array.
 
-A linear search sequentially checks each element of the list until it finds an element that
-matches the target value. 
-If the algorithm reaches the end of the list, the search terminates unsuccessfully.
 [:arrow_up:Back to top](#Content)
 ***
 
 <a name="Binary_Search"></a>
 
-## Binary search
+### Binary search
 
 Binary search compares the target value to the middle element of the array. 
   If they are not equal, the half in which the target cannot lie is eliminated
   and the search continues on the remaining half, again taking the middle element
   to compare to the target value, and repeating this until the target value is found. 
   If the search ends with the remaining half being empty, the target is not in the array.
-### Algorithm
+#### Algorithm
 
-Binary search works on sorted arrays. Binary search begins by comparing an element in
-  the  middle of the array with the target value. If the target value matches the
-  element, its position in the array is returned. If the target value is less than
-  the element, the search continues in the lower half of the array. If the target value
-  is greater than the element, the search continues in the upper half of the array.
-  By doing this, the algorithm elimin tes the half in which the target value cannot lie
-  in each iteration.
-
+  1. Start with a sorted array of elements. Binary search works efficiently on sorted arrays.
+  2. Set two pointers, "low" and "high," to mark the lower and upper bounds of the search space. Initially, "low"
+points to the first element, and "high" points to the last element of the array.
+  3. Calculate the middle index of the search space by taking the average of "low" and "high": 
+      $middle = \frac{low + high}{2}$
+  4. Compare the target value you're searching for with the element at the middle index:
+   * If the target value matches the element at the middle index, the search is successful, and you can return the index or any desired output.
+   * If the target value is less than the element at the middle index, it means the target must be in the lower half of the search space. Update "high" to be one less than the middle index: $high = middle - 1$
+   * If the target value is greater than the element at the middle index, it means the target must be in the upper half of the search space. Update "low" to be one more than the middle index: $low = middle + 1$
+  5. Repeat steps 3-4 until either the target value is found or the search space is empty. An empty search space occurs when "low" becomes greater than "high".
+  6. If the search space is empty and the target value has not been found, it means the target is not present in the array.
+     
 [:arrow_up:Back to top](#Content)
 
 ***
 
 <a name="Quicksort"></a>
 
-## Quicksort
+### Quicksort
 
 Quicksort (Tony Hoare) is a divide-and-conquer algorithm. It works by selecting a 
 'pivot' element from the array and partitioning the other elements into two
 sub-arrays, according to whether they are less than or greater than the pivot.
 
-### Algorithm
+#### Algorithm
 
-1.  Choose a pivot element from the array.
-2. Partition the array into two sub-arrays: one with elements less than the pivot and
-another with elemens greater than the pivot.
-3. Recursively sort each of sub-arrays by repeating steps 1 and 2 until all sub-arrays
-are sorted.
-4. Combine the sub-arrays to get the final sorted array.
+1.  Choose a pivot element from the array. This pivot element will be used to partition the array into two halves.
+2. Reorder the array so that all elements smaller than the pivot come before the pivot, and all elements greater than the pivot come after it. This process is called partitioning. After this step, the pivot element will be in its final sorted position.
+3. Recursively apply the above steps to the sub-array of elements that are smaller than the pivot and the sub-array of elements that are greater than the pivot.
+4. Repeat steps 1 to 3 until the entire array is sorted. This means recursively applying the algorithm to the smaller sub-arrays until they contain only one element (which is already considered sorted).
 
 [:arrow_up:Back to top](#Content)
-<!---
+
 ***
+
 <a name="Merge_Sort"></a>
-## Merge sort
-### Algorithm
+
+### Merge sort
+
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="In_place_merge_Sort"></a>
-## In-place merge sort
-### Algorithm
+### In-place merge sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Introsort"></a>
-## Introsort
-### Algorithm
+### Introsort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Heapsort"></a>
-## Heapsort
-### Algorithm
+### Heapsort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Insertion_Sort"></a>
-## Insertion sort
-### Algorithm
+### Insertion sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Block_Sort"></a>
-## Block sort
-### Algorithm
+### Block sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Timsort"></a>
-## Timsort
-### Algorithm
+### Timsort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Selection_Sort"></a>
-## Selection sort
-### Algorithm
+### Selection sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Cubesort"></a>
-## Cubesort
-### Algorithm
+### Cubesort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Shellsort"></a>
-## Shellsort
-### Algorithm
+### Shellsort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Bubble_sort"></a>
-## Bubble sort
-### Algorithm
+### Bubble sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Exchange_sort"></a>
-## Exchange sort
-### Algorithm
+### Exchange sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Tree_sort"></a>
-## Tree sort
-### Algorithm
+### Tree sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Cycle_sort"></a>
-## Cycle sort
-### Algorithm
+### Cycle sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Library_sort"></a>
-## Library sort
-### Algorithm
+### Library sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Patience_sorting"></a>
-## Patience sorting
-### Algorithm
+### Patience sorting
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Smoothsort"></a>
-## Smoothsort
-### Algorithm
+### Smoothsort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Strand_sort"></a>
-## Strand sort
-### Algorithm
+### Strand sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Tournament_sort"></a>
-## Tournament sort
-### Algorithm
+### Tournament sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Cocktail_shaker_sort"></a>
-## Cocktail shaker sort
-### Algorithm
+### Cocktail shaker sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Comb_sort"></a>
-## Comb sort
-### Algorithm
+### Comb sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Gnome_sort"></a>
-## Gnome sort
-### Algorithm
+### Gnome sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Odd–even_sort"></a>
-## Odd-even sort
-### Algorithm
+### Odd-even sort
+#### Algorithm
 [:arrow_up:Back to top](#Content)
 ***
 --->
