@@ -37,16 +37,16 @@ int main (void){
         pArray[i] = rand() % INT_MAX-1;
     }
     
+    printf("\n");
     for(int i = 0; i < arraySize; i++){
         printf("%i ",pArray[i]);
-        if (i % 10 == 0) printf("\n");
     }
     
     quick_sort(pArray, 0, arraySize-1);
     
+    printf("\n");
     for(int i = 0; i < arraySize; i++){
         printf("%i ",pArray[i]);
-        if (i % 10 == 0) printf("\n");
     }
     
     free(pArray);
