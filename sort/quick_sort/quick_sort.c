@@ -9,8 +9,20 @@ void swap(int *firstNumber, int *secondNumber){
     *secondNumber = tmp;
 }
 
+void printArray(int* pArray, int arraySize){
+    for(int i = 0; i < arraySize; i++){
+        printf("[%i]:[",i);
+        for (int j = 0; j < pArray[i]; j++){
+            printf("*");
+        }
+        printf("]\n");
+    }
+    printf("------------------------------------------------------------\n");
+}
+
 void quick_sort(int* pArray, int left, int right){
-    if (left < right){
+    if (left < right){ 
+        printArray(pArray,right+1);
         int pivotIndex = floor((left+right)/2);
         int pivot = pArray[pivotIndex];
         swap(&pArray[pivotIndex], &pArray[right]);
@@ -34,21 +46,16 @@ int main (void){
     scanf("%d", &arraySize);
     int* pArray = (int*)malloc(arraySize*sizeof(int));
     for(int i = 0; i < arraySize; i++){
-        pArray[i] = rand() % INT_MAX-1;
+        pArray[i] = rand() % 50;
     }
     
-    printf("\n");
-    for(int i = 0; i < arraySize; i++){
-        printf("%i ",pArray[i]);
-    }
-    
+    printf("\n\t\t\tRaw Array:\n");
+    printArray(pArray,arraySize);
+    printf("\n\t\t\tQuicksort interations:\n");
     quick_sort(pArray, 0, arraySize-1);
-    
-    printf("\n");
-    for(int i = 0; i < arraySize; i++){
-        printf("%i ",pArray[i]);
-    }
-    
+    printf("\n\t\t\tSorted Array:\n");
+    printArray(pArray,arraySize);
+
     free(pArray);
     return 0;
 }
