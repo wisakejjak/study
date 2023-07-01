@@ -12,7 +12,7 @@ Perhaps later, there will be something in Java.
   * [Binary search](#Binary_search)
  2. Sorting algorithms
   * [Quicksort](#Quicksort)
-  * [Merge sort](#Merge_sort) 
+  * [Quicksort1](#Quicksort1)
   * [In-place merge sort](#In_place_merge_Sort)
   <!--- * [Introsort](#Introsort)
   * [Heapsort](#Heapsort)
@@ -117,7 +117,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 
 ***
 
-<a name="Merge_sort"></a>
+<a name="Quicksort1"></a>
 
 ### Merge sort
 
