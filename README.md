@@ -13,7 +13,7 @@ Perhaps later, there will be something in Java.
  2. Sorting algorithms
   * [Quicksort](#Quicksort)
   * [Merge sort](#Merge_sort)
-  * [In-place merge sort](#In_place_merge_Sort)
+  * [In-place merge sort](#In_place_merge_sort)
   <!--- * [Introsort](#Introsort)
   * [Heapsort](#Heapsort)
   * [Insertion sort](#Insertion_Sort)
@@ -117,10 +117,10 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 
 ***
 
+<a name="Merge_sort">
+
 ### Merge sort
-
-<a name="Merge_sort"></a>
-
+</a>
 Insertion sort works by partitioning the array into two sections: a sorted section and an
 unsorted section. The algorithm iterates through the unsorted section, selecting one
 element at a time and inserting it into its correct position within the sorted section.
@@ -138,7 +138,6 @@ This process continues until the entire array is sorted.
 8. Once all elements have been processed, the array will be sorted.
 
 [:arrow_up:Back to top](#Content)
-
 ***
 
 <a name="In_place_merge_Sort"></a>
