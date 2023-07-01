@@ -140,6 +140,8 @@ This process continues until the entire array is sorted.
 [:arrow_up:Back to top](#Content)
 
 ***
+
+<!---
 <a name="In_place_merge_Sort"></a>
 ### In-place merge sort
 #### Algorithm
