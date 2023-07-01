@@ -8,11 +8,11 @@ Perhaps later, there will be something in Java.
 <a name="Content"></a>
 ## Content
  1. Searching algorithms
-  * [Linear search](#Linear_Search)
-  * [Binary search](#Binary_Search)
+  * [Linear search](#Linear_search)
+  * [Binary search](#Binary_search)
  2. Sorting algorithms
   * [Quicksort](#Quicksort)
-  * [Merge sort](#Merge_Sort) 
+  * [Merge sort](#Merge_sort) 
 <!--- * [In-place merge sort](#In_place_merge_Sort)
   * [Introsort](#Introsort)
   * [Heapsort](#Heapsort)
@@ -49,9 +49,9 @@ Perhaps later, there will be something in Java.
 
 ***
 
-<a name="Linear_Search"></a>
+<a name="Linear_search"></a>
 
-### Linear Search
+### Linear search
 
 A linear search sequentially checks each element of the list until it finds an element
 that matches the target value. 
@@ -70,7 +70,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 
 ***
 
-<a name="Binary_Search"></a>
+<a name="Binary_search"></a>
 
 ### Binary search
 
@@ -117,7 +117,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 
 ***
 
-<a name="Merge_Sort"></a>
+<a name="Merge_sort"></a>
 
 ### Merge sort
 
