@@ -117,9 +117,9 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 
 ***
 
-<a name="Merge_sort"></a>
-
 ### Merge sort
+
+<a name="Merge_sort"></a>
 
 Insertion sort works by partitioning the array into two sections: a sorted section and an
 unsorted section. The algorithm iterates through the unsorted section, selecting one
