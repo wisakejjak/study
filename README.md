@@ -121,6 +121,7 @@ element at a time and inserting it into its correct position within the sorted s
 This process continues until the entire array is sorted.
 
 #### Algorithm
+
 1. Start with the 2nd element of the array.
 2. Compare the 2nd element with the 1st element (the only element in the sorted section).
 3. If the 2nd element is smaller, swap them so that they are in the correct order.
