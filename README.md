@@ -7,10 +7,10 @@ Perhaps later, there will be something in Java.
 ***
 <a name="Content"></a>
 ## Content
- 1. [Searching algorithms](#Search)
+ 1. Searching algorithms
   * [Linear search](#Linear_Search)
   * [Binary search](#Binary_Search)
- 2. [Sorting algorithms](#Sort)
+ 2. Sorting algorithms
   * [Quicksort](#Quicksort)
   * [Merge sort](#Merge_Sort) 
 <!--- * [In-place merge sort](#In_place_merge_Sort)
@@ -46,15 +46,19 @@ Perhaps later, there will be something in Java.
   * [Binary Tree](#Binary_Tree)
   * [Graph](#Graph)
 --->
+
 ***
 
 <a name="Linear_Search"></a>
 
 ### Linear Search
+
 A linear search sequentially checks each element of the list until it finds an element
 that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
+
 #### Algorithm
+
 1. Start at the beginning.
 2. Compare the first element with the target.
 3. If the current element matches the target value, the search is successful.
@@ -63,6 +67,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 6. If you reach the end of the list without finding a match, the target value is not present in the list or array.
 
 [:arrow_up:Back to top](#Content)
+
 ***
 
 <a name="Binary_Search"></a>
@@ -74,6 +79,7 @@ Binary search compares the target value to the middle element of the array.
   and the search continues on the remaining half, again taking the middle element
   to compare to the target value, and repeating this until the target value is found. 
   If the search ends with the remaining half being empty, the target is not in the array.
+
 #### Algorithm
 
   1. Start with a sorted array of elements. Binary search works efficiently on sorted arrays.
