@@ -5,8 +5,12 @@ All these projects consist of search and sorting algorithms, which are the basis
 It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++.
 Perhaps later, there will be something in Java.
 ***
-<a name="Content"></a>
-## Content
+<a name="Content">
+ 
+ ## Content
+ 
+</a>
+
  1. Searching algorithms
   * [Linear search](#Linear_search)
   * [Binary search](#Binary_search)
@@ -49,10 +53,11 @@ Perhaps later, there will be something in Java.
 
 ***
 
-<a name="Linear_search"></a>
+<a name="Linear_search">
 
 ### Linear search
 
+</a>
 A linear search sequentially checks each element of the list until it finds an element
 that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
@@ -70,10 +75,11 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 
 ***
 
-<a name="Binary_search"></a>
+<a name="Binary_search">
 
 ### Binary search
 
+</a>
 Binary search compares the target value to the middle element of the array. 
   If they are not equal, the half in which the target cannot lie is eliminated
   and the search continues on the remaining half, again taking the middle element
@@ -98,10 +104,11 @@ points to the first element, and "high" points to the last element of the array.
 
 ***
 
-<a name="Quicksort"></a>
+<a name="Quicksort">
 
 ### Quicksort
 
+</a>
 Quicksort (Tony Hoare) is a divide-and-conquer algorithm. It works by selecting a 
 'pivot' element from the array and partitioning the other elements into two
 sub-arrays, according to whether they are less than or greater than the pivot.
@@ -120,6 +127,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 <a name="Merge_sort">
 
 ### Merge sort
+
 </a>
 Insertion sort works by partitioning the array into two sections: a sorted section and an
 unsorted section. The algorithm iterates through the unsorted section, selecting one
@@ -140,11 +148,11 @@ This process continues until the entire array is sorted.
 [:arrow_up:Back to top](#Content)
 ***
 
-<a name="In_place_merge_Sort"></a>
+<a name="In_place_merge_Sort">
 
 ### In-place merge sort
 
-
+</a>
 
 #### Algorithm
 
