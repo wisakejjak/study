@@ -120,6 +120,8 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 3. Recursively apply the above steps to the sub-array of elements that are smaller than the pivot and the sub-array of elements that are greater than the pivot.
 4. Repeat steps 1 to 3 until the entire array is sorted. This means recursively applying the algorithm to the smaller sub-arrays until they contain only one element (which is already considered sorted).
 
+![quicksort.gif](/sort/quick_sort/quicksort.gif)
+
 [:arrow_up:Back to top](#Content)
 
 ***
