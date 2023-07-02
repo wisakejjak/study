@@ -17,7 +17,7 @@ Perhaps later, there will be something in Java.
  2. Sorting algorithms
   * [Quicksort](#Quicksort)
   * [Merge sort](#Merge_sort)
-    <!---
+<!---
   * [In-place merge sort](#In_place_merge_sort)
   * [Introsort](#Introsort)
   * [Heapsort](#Heapsort)
