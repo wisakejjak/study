@@ -17,8 +17,9 @@ Perhaps later, there will be something in Java.
  2. Sorting algorithms
   * [Quicksort](#Quicksort)
   * [Merge sort](#Merge_sort)
+    <!---
   * [In-place merge sort](#In_place_merge_sort)
-  <!--- * [Introsort](#Introsort)
+  * [Introsort](#Introsort)
   * [Heapsort](#Heapsort)
   * [Insertion sort](#Insertion_Sort)
   * [Block sort](#Block_Sort)
@@ -149,7 +150,7 @@ This process continues until the entire array is sorted.
 
 [:arrow_up:Back to top](#Content)
 ***
-
+<!---
 <a name="In_place_merge_Sort">
 
 ### In-place merge sort
@@ -164,7 +165,7 @@ This process continues until the entire array is sorted.
 
 ***
 
-<!---<a name="Introsort"></a>
+<a name="Introsort"></a>
 ### Introsort
 #### Algorithm
 [:arrow_up:Back to top](#Content)
