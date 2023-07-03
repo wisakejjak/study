@@ -148,6 +148,9 @@ This process continues until the entire array is sorted.
 7. Repeat steps 4-6 for all the remaining unsorted elements.
 8. Once all elements have been processed, the array will be sorted.
 
+
+![mergesort.gif](/sort/quick_sort/merge_sort.gif)
+
 [:arrow_up:Back to top](#Content)
 ***
 <!---
