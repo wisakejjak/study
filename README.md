@@ -149,7 +149,7 @@ This process continues until the entire array is sorted.
 8. Once all elements have been processed, the array will be sorted.
 
 
-![mergesort.gif](/sort/quick_sort/merge_sort.gif)
+![mergesort.gif](/sort/merge_sort/merge_sort.gif)
 
 [:arrow_up:Back to top](#Content)
 ***
