@@ -132,21 +132,15 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 ### Merge sort
 
 </a>
-Insertion sort works by partitioning the array into two sections: a sorted section and an
-unsorted section. The algorithm iterates through the unsorted section, selecting one
-element at a time and inserting it into its correct position within the sorted section.
-This process continues until the entire array is sorted.
+Merge Sort is a popular sorting algorithm that follows the divide-and-conquer principle. It works by dividing the input array into smaller sub-arrays, sorting them separately, and then merging them back together to obtain a sorted array.
 
 #### Algorithm
 
-1. Start with the 2nd element of the array.
-2. Compare the 2nd element with the 1st element (the only element in the sorted section).
-3. If the 2nd element is smaller, swap them so that they are in the correct order.
-4. Move to the 3rd element and compare it with the elements in the sorted section.
-5. Continuously compare the current element with the elements in the sorted section, moving from right to left, until you find the correct position for the current element.
-6. Insert the current element into its correct position within the sorted section by shifting all larger elements one position to the right.
-7. Repeat steps 4-6 for all the remaining unsorted elements.
-8. Once all elements have been processed, the array will be sorted.
+ 1. **Divide.** The input array is recursively divided into two halves until we reach the base case, which is when the array contains only one element or is empty.
+ 2. **Conquer.** Once the array is divided into individual elements, the merging process begins. The two sub-arrays are merged by comparing the elements at corresponding positions and placing them in the correct order. This is done recursively until all sub-arrays are merged.
+ 3. **Merge.** To merge the sub-arrays, we create an auxiliary array to store the sorted elements. We maintain three pointers: `i` for the left sub-array, `j` for the right sub-array, and `k` for the auxiliary array. At each step, we compare the elements at positions `i` and `j`. The smaller element is placed in the auxiliary array at position `k`, and the corresponding pointer is incremented. This process continues until all elements have been merged.
+ 4. **Copy.** After merging all the sub-arrays, the sorted elements are stored in the auxiliary array. We copy these elements back into the original input array, replacing the unsorted elements with the sorted ones.
+
 
 
 ![mergesort.gif](/sort/merge_sort/merge_sort.gif)
