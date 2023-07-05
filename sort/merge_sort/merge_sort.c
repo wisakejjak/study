@@ -63,6 +63,8 @@ void merge_sort(int* pArray, int sizeArray){
         printf("]\n");
     }
     printf("------------------------------------------------------------\n");
+    free(pLeftArray);
+    free(pRightArray);
 }
 
 int main(){
