@@ -3,7 +3,6 @@ This repository has been created to store all the tutorial projects I've written
 I will try to place each tutorial project in C and C++.
 All these projects consist of search and sorting algorithms, which are the basis for other more complex projects. Also, these projects consist Data Structures.
 It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++.
-Perhaps later, there will be something in Java.
 ***
 <a name="Content">
  
@@ -17,7 +16,6 @@ Perhaps later, there will be something in Java.
  2. Sorting algorithms
   * [Quicksort](#Quicksort)
   * [Merge sort](#Merge_sort)
-<!---
   * [In-place merge sort](#In_place_merge_sort)
   * [Introsort](#Introsort)
   * [Heapsort](#Heapsort)
@@ -45,12 +43,11 @@ Perhaps later, there will be something in Java.
   * [String](#String)
   * [List](#List)
   * [Vector](#Vector)
-  * [Queue](#Queues)
+  * [Queue](#Queue)
   * [Stack](#Stack)
   * [Set](#Set)
   * [Binary Tree](#Binary_Tree)
   * [Graph](#Graph)
---->
 
 ***
 
@@ -147,16 +144,18 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
 
 [:arrow_up:Back to top](#Content)
 ***
-<!---
+
 <a name="In_place_merge_Sort">
 
 ### In-place merge sort
+
+In progress...
 
 </a>
 
 #### Algorithm
 
-
+In progress...
 
 [:arrow_up:Back to top](#Content)
 
@@ -164,107 +163,336 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
 
 <a name="Introsort"></a>
 ### Introsort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Heapsort"></a>
 ### Heapsort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Insertion_Sort"></a>
 ### Insertion sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Block_Sort"></a>
 ### Block sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Timsort"></a>
 ### Timsort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Selection_Sort"></a>
 ### Selection sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Cubesort"></a>
 ### Cubesort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Shellsort"></a>
 ### Shellsort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Bubble_sort"></a>
 ### Bubble sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Exchange_sort"></a>
 ### Exchange sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Tree_sort"></a>
 ### Tree sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Cycle_sort"></a>
 ### Cycle sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Library_sort"></a>
 ### Library sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Patience_sorting"></a>
 ### Patience sorting
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Smoothsort"></a>
 ### Smoothsort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Strand_sort"></a>
 ### Strand sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Tournament_sort"></a>
 ### Tournament sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Cocktail_shaker_sort"></a>
 ### Cocktail shaker sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Comb_sort"></a>
 ### Comb sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Gnome_sort"></a>
 ### Gnome sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
 <a name="Odd–even_sort"></a>
 ### Odd-even sort
+
+In progress...
+
 #### Algorithm
+
+In progress...
+
 [:arrow_up:Back to top](#Content)
 ***
---->
+
+<a name="Array"></a>
+### Array
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+
+<a name="String"></a>
+### String
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+
+<a name="List"></a>
+### List
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+<a name="Vector"></a>
+### Vector
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+<a name="Queue"></a>
+### Queue
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+<a name="Stack"></a>
+### Stack
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+
+<a name="Set"></a>
+### Set
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+<a name="Binary_Tree"></a>
+### Binary Tree
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
+
+<a name="Graph"></a>
+### Graph
+
+In progress...
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+***
