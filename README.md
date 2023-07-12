@@ -10,10 +10,10 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
  
 </a>
 
- 1. Searching algorithms
+### 1. Searching algorithms
   * [Linear search](#Linear_search)
   * [Binary search](#Binary_search)
- 2. Sorting algorithms
+### 2. Sorting algorithms
   * [Quicksort](#Quicksort)
   * [Merge sort](#Merge_sort)
   * [In-place merge sort](#In_place_merge_sort)
@@ -38,7 +38,7 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
   * [Comb sort](#Comb_sort)
   * [Gnome sort](#Gnome_sort)
   * [Odd-even sort](#Odd–even_sort)
-3. [Data Structures](#Data_Structures)
+### 3. Data Structures
   * [Array](#Array)
   * [String](#String)
   * [List](#List)
@@ -145,7 +145,7 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
 [:arrow_up:Back to top](#Content)
 ***
 
-<a name="In_place_merge_Sort">
+<a name="In_place_merge_sort">
 
 ### In-place merge sort
 
