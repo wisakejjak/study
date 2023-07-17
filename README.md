@@ -3,7 +3,7 @@ This repository has been created to store all the tutorial projects I've written
 I will try to place each tutorial project in C and C++.
 All these projects consist of search and sorting algorithms, which are the basis for other more complex projects. Also, these projects consist Data Structures.
 It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++.
-***
+
 <a name="Content">
  
  ## Content
@@ -49,13 +49,16 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
   * [Binary Tree](#Binary_Tree)
   * [Graph](#Graph)
 
-***
+
+## 1. Searching algorithms
+
 
 <a name="Linear_search">
 
 ### Linear search
 
 </a>
+
 A linear search sequentially checks each element of the list until it finds an element
 that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
@@ -78,6 +81,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 ### Binary search
 
 </a>
+
 Binary search compares the target value to the middle element of the array. 
   If they are not equal, the half in which the target cannot lie is eliminated
   and the search continues on the remaining half, again taking the middle element
@@ -102,11 +106,14 @@ points to the first element, and "high" points to the last element of the array.
 
 ***
 
+## 2. Sorting algorithms
+
 <a name="Quicksort">
 
 ### Quicksort
 
 </a>
+
 Quicksort (Tony Hoare) is a divide-and-conquer algorithm. It works by selecting a 
 'pivot' element from the array and partitioning the other elements into two
 sub-arrays, according to whether they are less than or greater than the pivot.
@@ -129,6 +136,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 ### Merge sort
 
 </a>
+
 Merge Sort is a popular sorting algorithm that follows the divide-and-conquer principle. It works by dividing the input array into smaller sub-arrays, sorting them separately, and then merging them back together to obtain a sorted array.
 
 #### Algorithm
@@ -149,21 +157,25 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
 
 ### In-place merge sort
 
+</a>
+
 In progress...
+
+
+#### Algorithm
+
+In progress...
+
+[:arrow_up:Back to top](#Content)
+
+***
+
+<a name="Introsort">
+ 
+### Introsort
 
 </a>
 
-#### Algorithm
-
-In progress...
-
-[:arrow_up:Back to top](#Content)
-
-***
-
-<a name="Introsort"></a>
-### Introsort
-
 In progress...
 
 #### Algorithm
@@ -172,9 +184,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Heapsort"></a>
+<a name="Heapsort">
+ 
 ### Heapsort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -183,9 +198,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Insertion_Sort"></a>
+<a name="Insertion_Sort">
+
 ### Insertion sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -194,9 +212,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Block_Sort"></a>
+<a name="Block_Sort">
+ 
 ### Block sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -205,9 +226,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Timsort"></a>
+<a name="Timsort">
+ 
 ### Timsort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -216,9 +240,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Selection_Sort"></a>
+<a name="Selection_Sort">
+
 ### Selection sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -227,9 +254,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Cubesort"></a>
+<a name="Cubesort">
+ 
 ### Cubesort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -238,9 +268,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Shellsort"></a>
+<a name="Shellsort">
+ 
 ### Shellsort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -249,9 +282,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Bubble_sort"></a>
+<a name="Bubble_sort">
+ 
 ### Bubble sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -260,9 +296,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Exchange_sort"></a>
+<a name="Exchange_sort">
+ 
 ### Exchange sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -271,9 +310,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Tree_sort"></a>
+<a name="Tree_sort">
+
 ### Tree sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -282,9 +324,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Cycle_sort"></a>
+<a name="Cycle_sort">
+
 ### Cycle sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -293,9 +338,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Library_sort"></a>
+<a name="Library_sort">
+ 
 ### Library sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -304,9 +352,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Patience_sorting"></a>
+<a name="Patience_sorting">
+ 
 ### Patience sorting
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -315,9 +366,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Smoothsort"></a>
+<a name="Smoothsort">
+
 ### Smoothsort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -326,9 +380,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Strand_sort"></a>
+<a name="Strand_sort">
+ 
 ### Strand sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -337,9 +394,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Tournament_sort"></a>
+<a name="Tournament_sort">
+
 ### Tournament sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -348,9 +408,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Cocktail_shaker_sort"></a>
+<a name="Cocktail_shaker_sort">
+
 ### Cocktail shaker sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -359,9 +422,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Comb_sort"></a>
+<a name="Comb_sort">
+ 
 ### Comb sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -370,9 +436,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Gnome_sort"></a>
+<a name="Gnome_sort">
+ 
 ### Gnome sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -381,9 +450,12 @@ In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Odd–even_sort"></a>
+<a name="Odd–even_sort">
+
 ### Odd-even sort
 
+</a>
+
 In progress...
 
 #### Algorithm
@@ -391,106 +463,124 @@ In progress...
 In progress...
 
 [:arrow_up:Back to top](#Content)
+
 ***
 
-<a name="Array"></a>
+## 3. Data Structures
+
+
+<a name="Array">
+
 ### Array
 
-In progress...
+Array - collection of elements. All elements of the array have the same memory size. They have at least one _array index_ or _key_ .
 
-#### Algorithm
+Example (One-dimensional array of 10 ints):
 
-In progress...
+```C++ 
+void foo{
+ int N = 10; // Size of array
+ int Array_A[N] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; // elements of array
+ int Array_B[10]; // empty array (size 10)
+}
+```
+Also, array elements can be arrays themselves. This allows for creating a two-dimensional array. This structure resembles a chessboard or a table. Moreover, the size of the array and the size of the array-elements can differ. However, the size of all array-elements must match by definition of an array.
+
+Example (Two-dimensional array of 10x10 ints):
+```C++
+void foo{
+ int N = 10; // Size of array
+ int M = 10; // Size of array-elements
+ int Array_A[N][M]; // Two-dimensional array
+}
+```
+Of course, it is evident that both three-dimensional and n-dimensional arrays can be created.
+Are arrays in C++ same as C? 
+
+</a>
 
 [:arrow_up:Back to top](#Content)
+
 ***
 
-<a name="String"></a>
+<a name="String">
+ 
 ### String
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
 
-<a name="List"></a>
+<a name="List">
+ 
 ### List
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Vector"></a>
+<a name="Vector">
+ 
 ### Vector
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Queue"></a>
+<a name="Queue">
+ 
 ### Queue
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Stack"></a>
+<a name="Stack">
+ 
 ### Stack
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
 
-<a name="Set"></a>
+<a name="Set">
+ 
 ### Set
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
-<a name="Binary_Tree"></a>
+<a name="Binary_Tree">
+ 
 ### Binary Tree
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
 [:arrow_up:Back to top](#Content)
 ***
 
-<a name="Graph"></a>
+<a name="Graph">
+
 ### Graph
 
-In progress...
-
-#### Algorithm
+</a>
 
 In progress...
 
