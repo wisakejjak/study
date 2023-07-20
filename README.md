@@ -4,6 +4,8 @@ I will try to place each tutorial project in C and C++.
 All these projects consist of search and sorting algorithms, which are the basis for other more complex projects. Also, these projects consist Data Structures.
 It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++.
 
+_Note: Use Table of content in_
+
 <a name="content">
  
  ## Content
