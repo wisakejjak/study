@@ -53,13 +53,9 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
 ## 1. Searching algorithms
 
 
-
-<a name="Linear_search">
+<div id='Linear_search'/>
  
 ### Linear search 
-
-</a>
-
 
 A linear search sequentially checks each element of the list until it finds an element
 that matches the target value. 
