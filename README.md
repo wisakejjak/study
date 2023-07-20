@@ -4,10 +4,11 @@ I will try to place each tutorial project in C and C++.
 All these projects consist of search and sorting algorithms, which are the basis for other more complex projects. Also, these projects consist Data Structures.
 It's also a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++.
 
-<a name="Content"></a>
+<a name="content">
  
  ## Content
  
+</a>
 
 ### 1. Searching algorithms
   * [Linear search](#Linear_search)
@@ -52,11 +53,13 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
 ## 1. Searching algorithms
 
 
-<a name="Linear_search">
 
-### Linear search
+<a name="Linear_search">
+ 
+### Linear search 
 
 </a>
+
 
 A linear search sequentially checks each element of the list until it finds an element
 that matches the target value. 
@@ -71,7 +74,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 5. Repeat steps 3 and 4.
 6. If you reach the end of the list without finding a match, the target value is not present in the list or array.
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 
 ***
 
@@ -101,7 +104,7 @@ points to the first element, and "high" points to the last element of the array.
   5. Repeat steps 3-4 until either the target value is found or the search space is empty. An empty search space occurs when "low" becomes greater than "high".
   6. If the search space is empty and the target value has not been found, it means the target is not present in the array.
      
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 
 ***
 
@@ -126,7 +129,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 
 ![quicksort.gif](/sort/quick_sort/quicksort.gif)
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 
 ***
 
