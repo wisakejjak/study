@@ -22,7 +22,7 @@ void printArray(int* pArray, int arraySize){//print array function
 
 void quick_sort(int* pArray, int left, int right){//quick_sort function
     if (left < right){ 
-        printArray(pArray,right+1);//print arra
+        printArray(pArray,right+1);//print array
         int pivotIndex = floor((left+right)/2);//set index of pivot array
         int pivot = pArray[pivotIndex]; // set element of array by index
         swap(&pArray[pivotIndex], &pArray[right]);//swap pointers (pivot and right)
