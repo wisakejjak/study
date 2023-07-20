@@ -53,7 +53,7 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
 ## 1. Searching algorithms
 
 
-<div id='Linear_search'/>
+<div id="Linear_search"/>
  
 ### Linear search 
 
