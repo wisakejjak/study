@@ -11,49 +11,46 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
 </a>
 
 ### 1. Searching algorithms
-  * [Linear search](#Linear_search)
-  * [Binary search](#Binary_search)
+  * Linear search
+  * Binary search
 ### 2. Sorting algorithms
-  * [Quicksort](#Quicksort)
-  * [Merge sort](#Merge_sort)
-  * [In-place merge sort](#In_place_merge_sort)
-  * [Introsort](#Introsort)
-  * [Heapsort](#Heapsort)
-  * [Insertion sort](#Insertion_Sort)
-  * [Block sort](#Block_Sort)
-  * [Timsort](#Timsort)
-  * [Selection sort](#Selection_Sort)
-  * [Cubesort](#Cubesort)
-  * [Shellsort](#Shellsort)
-  * [Bubble sort](#Bubble_sort)
-  * [Exchange sort](#Exchange_sort)
-  * [Tree sort](#Tree_sort)
-  * [Cycle sort](#Cycle_sort)
-  * [Library sort](#Library_sort)
-  * [Patience sorting](#Patience_sorting)
-  * [Smoothsort](#Smoothsort)
-  * [Strand sort](#Strand_sort)
-  * [Tournament sort](#Tournament_sort)
-  * [Cocktail shaker sort](#Cocktail_shaker_sort)
-  * [Comb sort](#Comb_sort)
-  * [Gnome sort](#Gnome_sort)
-  * [Odd-even sort](#Odd–even_sort)
+  * Quicksort
+  * Merge sort
+  * In-place merge sort
+  * Introsort
+  * Heapsort
+  * Insertion sort
+  * Block sort
+  * Timsort
+  * Selection sort
+  * Cubesort
+  * Shellsort
+  * Bubble sort
+  * Exchange sort
+  * Tree sort
+  * Cycle sort
+  * Library sort
+  * Patience sorting
+  * Smoothsort
+  * Strand sort
+  * Tournament sort
+  * Cocktail shaker sort
+  * Comb sort
+  * Gnome sort
+  * Odd-even sort
 ### 3. Data Structures
-  * [Array](#Array)
-  * [String](#String)
-  * [List](#List)
-  * [Vector](#Vector)
-  * [Queue](#Queue)
-  * [Stack](#Stack)
-  * [Set](#Set)
-  * [Binary Tree](#Binary_Tree)
-  * [Graph](#Graph)
+  * Array
+  * String
+  * List
+  * Vector
+  * Queue
+  * Stack
+  * Set
+  * Binary Tree
+  * Graph
 
 
 ## 1. Searching algorithms
-
-
-<div id="Linear_search"/>
  
 ### Linear search 
 
@@ -74,11 +71,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 
 ***
 
-<a name="Binary_search">
-
 ### Binary search
-
-</a>
 
 Binary search compares the target value to the middle element of the array. 
   If they are not equal, the half in which the target cannot lie is eliminated
@@ -106,11 +99,7 @@ points to the first element, and "high" points to the last element of the array.
 
 ## 2. Sorting algorithms
 
-<a name="Quicksort">
-
 ### Quicksort
-
-</a>
 
 Quicksort (Tony Hoare) is a divide-and-conquer algorithm. It works by selecting a 
 'pivot' element from the array and partitioning the other elements into two
@@ -129,11 +118,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 
 ***
 
-<a name="Merge_sort">
-
 ### Merge sort
-
-</a>
 
 Merge Sort is a popular sorting algorithm that follows the divide-and-conquer principle. It works by dividing the input array into smaller sub-arrays, sorting them separately, and then merging them back together to obtain a sorted array.
 
@@ -144,19 +129,13 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
  3. **Merge.** To merge the sub-arrays, we create an auxiliary array to store the sorted elements. We maintain three pointers: `i` for the left sub-array, `j` for the right sub-array, and `k` for the auxiliary array. At each step, we compare the elements at positions `i` and `j`. The smaller element is placed in the auxiliary array at position `k`, and the corresponding pointer is incremented. This process continues until all elements have been merged.
  4. **Copy.** After merging all the sub-arrays, the sorted elements are stored in the auxiliary array. We copy these elements back into the original input array, replacing the unsorted elements with the sorted ones.
 
-
-
 ![mergesort.gif](/sort/merge_sort/merge_sort.gif)
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 ***
-
-<a name="In_place_merge_sort">
 
 ### In-place merge sort
 
-</a>
-
 In progress...
 
 
@@ -164,310 +143,262 @@ In progress...
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 
 ***
-
-<a name="Introsort">
  
 ### Introsort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 ***
-<a name="Heapsort">
  
 ### Heapsort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Insertion_Sort">
 
 ### Insertion sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Block_Sort">
- 
+
 ### Block sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Timsort">
- 
+
 ### Timsort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Selection_Sort">
 
 ### Selection sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Cubesort">
  
 ### Cubesort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Shellsort">
  
 ### Shellsort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Bubble_sort">
  
 ### Bubble sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Exchange_sort">
  
 ### Exchange sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Tree_sort">
 
 ### Tree sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Cycle_sort">
 
 ### Cycle sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Library_sort">
  
 ### Library sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Patience_sorting">
  
 ### Patience sorting
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Smoothsort">
 
 ### Smoothsort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Strand_sort">
  
 ### Strand sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Tournament_sort">
 
 ### Tournament sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Cocktail_shaker_sort">
 
 ### Cocktail shaker sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Comb_sort">
  
 ### Comb sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Gnome_sort">
  
 ### Gnome sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Odd–even_sort">
 
 ### Odd-even sort
 
-</a>
-
 In progress...
 
 #### Algorithm
 
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 
 ***
 
 ## 3. Data Structures
-
-
-<a name="Array">
 
 ### Array
 
@@ -495,92 +426,70 @@ void foo{
 Of course, it is evident that both three-dimensional and n-dimensional arrays can be created.
 Are arrays in C++ same as C? 
 
-</a>
-
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
 
 ***
-
-<a name="String">
  
 ### String
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
-***
+[:arrow_up:Back to top](#content)
 
-<a name="List">
+***
  
 ### List
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Vector">
  
 ### Vector
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Queue">
  
 ### Queue
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Stack">
  
 ### Stack
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
-***
+[:arrow_up:Back to top](#content)
 
-<a name="Set">
+***
  
 ### Set
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
-<a name="Binary_Tree">
  
 ### Binary Tree
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
-***
+[:arrow_up:Back to top](#content)
 
-<a name="Graph">
+***
 
 ### Graph
 
-</a>
-
 In progress...
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#content)
+
 ***
