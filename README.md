@@ -62,11 +62,11 @@ A linear search sequentially checks each element of the list until it finds an e
 that matches the target value. 
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
 
-Worst-case performance	O(n)
-
-Best-case performance	O(1)
-
-Average performance	O(n)
+| Perfromance | Big O |
+|:-----------:|:-----:|
+|  Worst-case |  O(n) |
+|  Best-case  |  O(1) |
+|   Average   |  O(n) |
 
 #### Algorithm
 
