@@ -89,6 +89,12 @@ Binary search compares the target value to the middle element of the array.
   to compare to the target value, and repeating this until the target value is found. 
   If the search ends with the remaining half being empty, the target is not in the array.
 
+  | Perfromance | Big O |
+|:-----------:|:-----:|
+|  Worst-case |  O(log n) |
+|  Best-case  |  O(1) |
+|   Average   |  O(log n) |
+
 #### Algorithm
 
   1. Start with a sorted array of elements. Binary search works efficiently on sorted arrays.
