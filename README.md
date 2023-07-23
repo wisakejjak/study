@@ -121,12 +121,13 @@ Quicksort (Tony Hoare) is a divide-and-conquer algorithm. It works by selecting 
 'pivot' element from the array and partitioning the other elements into two
 sub-arrays, according to whether they are less than or greater than the pivot.
 
+<!--
   | Perfromance | Big O |
 |:-----------:|:-----:|
 |  Worst-case |  $O(n^2)$ |
 |  Best-case  |  $O(n \times log (n))$ (simple partition)  |
-|  Best-case  |  $O(n)$ (three-way partition and equal keys) |
-|   Average   |  $O(log(n))$ |
+|   Average   |  $O(n \times log(n))$ |
+-->
 
 #### Algorithm
 
