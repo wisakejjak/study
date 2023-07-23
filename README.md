@@ -63,7 +63,9 @@ that matches the target value.
 If the algorithm reaches the end of the list, the search terminates unsuccessfully.
 
 Worst-case performance	O(n)
+
 Best-case performance	O(1)
+
 Average performance	O(n)
 
 #### Algorithm
