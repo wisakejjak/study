@@ -64,9 +64,9 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 
 | Perfromance | Big O |
 |:-----------:|:-----:|
-|  Worst-case |  O(n) |
-|  Best-case  |  O(1) |
-|   Average   |  O(n) |
+|  Worst-case |  $O(n)$ |
+|  Best-case  |  $O(1)$ |
+|   Average   |  $O(n)$ |
 
 #### Algorithm
 
@@ -91,9 +91,9 @@ Binary search compares the target value to the middle element of the array.
 
   | Perfromance | Big O |
 |:-----------:|:-----:|
-|  Worst-case |  O(log n) |
-|  Best-case  |  O(1) |
-|   Average   |  O(log n) |
+|  Worst-case |  $O(log (n))$ |
+|  Best-case  |  $O(1)$ |
+|   Average   |  $O(log (n))$ |
 
 #### Algorithm
 
@@ -120,6 +120,13 @@ points to the first element, and "high" points to the last element of the array.
 Quicksort (Tony Hoare) is a divide-and-conquer algorithm. It works by selecting a 
 'pivot' element from the array and partitioning the other elements into two
 sub-arrays, according to whether they are less than or greater than the pivot.
+
+  | Perfromance | Big O |
+|:-----------:|:-----:|
+|  Worst-case |  $O(n^2)$ |
+|  Best-case  |  $O(n \times log (n))$ (simple partition)  |
+|  Best-case  |  $O(n)$ (three-way partition and equal keys) |
+|   Average   |  $O(log(n))$ |
 
 #### Algorithm
 
