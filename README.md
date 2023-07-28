@@ -274,11 +274,30 @@ In progress...
  
 ### Bubble sort
 
-In progress...
+Bubble sort is a simple sorting algorithm that repeatedly steps through the
+list, compares adjacent elements, and swaps them if they are in the wrong
+order. The pass-throughs continue until the list is sorted.
+
+| Perfromance | Big O comprasions |
+|:-----------:|:-----:|
+|  Worst-case |  $O(n^2)$ |
+|  Best-case  |  $O(n)$ |
+|   Average   |  $O(n^2)$ |
+
+| Perfromance | Big O swaps |
+|:-----------:|:-----:|
+|  Worst-case |  $O(n^2)$ |
+|  Best-case  |  $O(1)$ |
+|   Average   |  $O(n^2)$ |
 
 #### Algorithm
 
-In progress...
+1. Start at the begin of the list
+2. Compare element and next from it
+3. If the current element is greater than the next element, swap them.
+4. Go to next element and repeat third step.
+5. If th current element - last element of the list, list is sorted.
+
 
 [:arrow_up:Back to top](#content)
 
