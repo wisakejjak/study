@@ -145,6 +145,13 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 
 Merge Sort is a popular sorting algorithm that follows the divide-and-conquer principle. It works by dividing the input array into smaller sub-arrays, sorting them separately, and then merging them back together to obtain a sorted array.
 
+| Perfromance | Big O |
+|:-----------:|:-----:|
+|  Worst-case | $O(n \times log (n))$ |
+|  Best-case  | $O(n \times log (n))$ |
+|   Average   | $O(n \times log (n))$ |
+
+
 #### Algorithm
 
  1. **Divide.** The input array is recursively divided into two halves until we reach the base case, which is when the array contains only one element or is empty.
