@@ -298,6 +298,7 @@ order. The pass-throughs continue until the list is sorted.
 4. Go to next element and repeat third step.
 5. If th current element - last element of the list, list is sorted.
 
+![bubble_sort.gif](/sort/bubble_sort/bubble_sort.gif)
 
 [:arrow_up:Back to top](#content)
 
