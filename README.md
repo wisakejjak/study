@@ -1,4 +1,7 @@
 ## About
+
+> If you want to learn something, try to teach it
+
 This repository has been created to store all the tutorial projects I've written.
 I will try to place each tutorial project in C and C++.
 All these projects consist of search and sorting algorithms, which are the basis for other more complex projects. Also, these projects consist Data Structures.
