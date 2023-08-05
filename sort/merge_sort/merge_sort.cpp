@@ -8,7 +8,7 @@ void printArray(int* pArray, int sizeArray){
             std::cout << "*";
         std::cout << "]" << std::endl;
     }
-    std::cout << "------------------------------------------------------------" << std::endl;
+    std::cout << std::endl << std::endl;
 }
 
 void merge(int* pArray, int* pLeftArray, int* pRightArray, int middle, int right){
@@ -24,7 +24,6 @@ void merge(int* pArray, int* pLeftArray, int* pRightArray, int middle, int right
     while (i < middle){
         pArray[k++] = pLeftArray[i++];
     }
-
     while (j < right){
         pArray[k++] = pRightArray[j++];
     }
@@ -37,11 +36,9 @@ void merge_sort(int* pArray, int sizeArray){
     int middle = sizeArray/2;
     int* pLeftArray = new int[middle];
     int* pRightArray = new int[sizeArray - middle];
-        
     for (int i = 0; i < middle; i++) {
         pLeftArray[i] = pArray[i];
     }
-
     for (int i = middle; i < sizeArray; i++) {
         pRightArray[i - middle] = pArray[i];
     }
@@ -49,7 +46,6 @@ void merge_sort(int* pArray, int sizeArray){
     merge_sort(pRightArray, sizeArray - middle);
     merge(pArray, pLeftArray, pRightArray, middle, sizeArray-middle);
     std::cout << std::endl << "\t\t\tMerge sort iterations:" << std::endl;
-
     for(int i = 0; i < 5; i++){
         std::cout << "[" << i << "]:[";
         if ((pArray[i] > 50)||(pArray[i] < 0)) {
@@ -60,8 +56,7 @@ void merge_sort(int* pArray, int sizeArray){
             std::cout << "*";
         std::cout << "]" << std::endl;
     }
-    std::cout << "------------------------------------------------------------" << std::endl;
-
+    std::cout << std::endl << std::endl;
     delete[] pLeftArray;
     delete[] pRightArray;
 }

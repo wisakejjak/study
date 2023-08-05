@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <climits>
+#include <limits.h>
 
 void swap(int *firstNumber, int *secondNumber){//swap function
     int tmp = *firstNumber;
@@ -17,13 +17,13 @@ void printArray(int* pArray, int arraySize){//print array function
         }
         printf("]\n");
     }
-    printf("------------------------------------------------------------\n");
+    printf("\n\n");
 }
 
 void quick_sort(int* pArray, int left, int right){//quick_sort function
     if (left < right){ 
         printArray(pArray,right+1);//print array
-        int pivotIndex = floor((left+right)/2);//set index of pivot array
+        int pivotIndex = floor( (left+right) / 2);//set index of pivot array
         int pivot = pArray[pivotIndex]; // set element of array by index
         swap(&pArray[pivotIndex], &pArray[right]);//swap pointers (pivot and right)
         int i = left;

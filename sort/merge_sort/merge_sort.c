@@ -10,7 +10,7 @@ void printArray(int* pArray, int sizeArray){
         }
         printf("]\n");
     }
-    printf("------------------------------------------------------------\n");
+    printf("\n\n");
 }
 
 void merge(int* pArray, int* pLeftArray, int* pRightArray, int middle, int right){
@@ -39,11 +39,9 @@ void merge_sort(int* pArray, int sizeArray){
     int middle = sizeArray/2;
     int* pLeftArray = (int*)malloc(middle*sizeof(int));
     int* pRightArray = (int*)malloc((sizeArray - middle)*sizeof(int));
-        
     for (int i = 0; i < middle; i++) {
         pLeftArray[i] = pArray[i];
     }
-
     for (int i = middle; i < sizeArray; i++) {
         pRightArray[i - middle] = pArray[i];
     }
@@ -62,7 +60,7 @@ void merge_sort(int* pArray, int sizeArray){
         }
         printf("]\n");
     }
-    printf("------------------------------------------------------------\n");
+    printf("\n\n");
     free(pLeftArray);
     free(pRightArray);
 }
@@ -75,14 +73,11 @@ int main(){
     for(int i = 0; i < arraySize; i++){
         pArray[i] = rand() % 50;
     }
-    
     printf("\n\t\t\tRaw Array:\n");
     printArray(pArray, arraySize);
     merge_sort(pArray, arraySize);
     printf("\n\t\t\tSorted Array:\n");
     printArray(pArray, arraySize);
-
-
     free(pArray);
     return 0;
 }
