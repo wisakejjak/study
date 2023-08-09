@@ -9,7 +9,18 @@ It's also a great opportunity to learn Git, Markdown for readme and just help be
 
 _Note: Use Table of content in Readme_
 
-![Readme](/Безымянный.png)
+Use make in ./ to make
+
+| make | Content |
+|:-----------:|:-----:|
+| `make c_search` |  searching algorithms in C |
+| `make cpp_search` |  searching algrotithms in C++ |
+| `make c_sort` | sorting algorithms in C |
+| `make cpp_sort` | sorting algorithms in C++ |
+
+
+
+![Readme](media/readme_hint.png)
 
 <a name="content">
  
@@ -138,7 +149,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 3. Recursively apply the above steps to the sub-array of elements that are smaller than the pivot and the sub-array of elements that are greater than the pivot.
 4. Repeat steps 1 to 3 until the entire array is sorted. This means recursively applying the algorithm to the smaller sub-arrays until they contain only one element (which is already considered sorted).
 
-![quick_sort.gif](/sort/quick_sort/quick_sort.gif)
+![quick_sort.gif](/media/quick_sort.gif)
 
 [:arrow_up:Back to top](#content)
 
@@ -162,7 +173,7 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
  3. **Merge.** To merge the sub-arrays, we create an auxiliary array to store the sorted elements. We maintain three pointers: `i` for the left sub-array, `j` for the right sub-array, and `k` for the auxiliary array. At each step, we compare the elements at positions `i` and `j`. The smaller element is placed in the auxiliary array at position `k`, and the corresponding pointer is incremented. This process continues until all elements have been merged.
  4. **Copy.** After merging all the sub-arrays, the sorted elements are stored in the auxiliary array. We copy these elements back into the original input array, replacing the unsorted elements with the sorted ones.
 
-![mergesort.gif](/sort/merge_sort/merge_sort.gif)
+![mergesort.gif](/media/merge_sort.gif)
 
 [:arrow_up:Back to top](#content)
 ***
@@ -301,7 +312,7 @@ order. The pass-throughs continue until the list is sorted.
 4. Go to next element and repeat third step.
 5. If th current element - last element of the list, list is sorted.
 
-![bubble_sort.gif](/sort/bubble_sort/bubble_sort.gif)
+![bubble_sort.gif](/media/bubble_sort.gif)
 
 [:arrow_up:Back to top](#content)
 
