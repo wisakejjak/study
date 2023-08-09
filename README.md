@@ -21,7 +21,7 @@ Use make in ./ to make
 
 
 
-![Readme](media/readme_hint.png)
+![Readme](./media/readme_hint.png)
 
 <a name="content">
  
