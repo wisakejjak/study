@@ -83,7 +83,7 @@ If the algorithm reaches the end of the list, the search terminates unsuccessful
 |  Best-case  |  $O(1)$ |
 |   Average   |  $O(n)$ |
 
-#### Algorithm
+__Algorithm__
 
 1. Start at the beginning.
 2. Compare the first element with the target.
@@ -110,7 +110,7 @@ Binary search compares the target value to the middle element of the array.
 |  Best-case  |  $O(1)$ |
 |   Average   |  $O(log (n))$ |
 
-#### Algorithm
+__Algorithm__
 
   1. Start with a sorted array of elements. Binary search works efficiently on sorted arrays.
   2. Set two pointers, "low" and "high," to mark the lower and upper bounds of the search space. Initially, "low"
@@ -143,7 +143,7 @@ sub-arrays, according to whether they are less than or greater than the pivot.
 |   Average   |  $O(n \times log (n)$ |
 
 
-#### Algorithm
+__Algorithm__
 
 1.  Choose a pivot element from the array. This pivot element will be used to partition the array into two halves.
 2. Reorder the array so that all elements smaller than the pivot come before the pivot, and all elements greater than the pivot come after it. This process is called partitioning. After this step, the pivot element will be in its final sorted position.
@@ -167,7 +167,7 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
 |   Average   | $O(n \times log (n))$ |
 
 
-#### Algorithm
+__Algorithm__
 
  1. **Divide.** The input array is recursively divided into two halves until we reach the base case, which is when the array contains only one element or is empty.
  2. **Conquer.** Once the array is divided into individual elements, the merging process begins. The two sub-arrays are merged by comparing the elements at corresponding positions and placing them in the correct order. This is done recursively until all sub-arrays are merged.
@@ -184,7 +184,7 @@ Merge Sort is a popular sorting algorithm that follows the divide-and-conquer pr
 In progress...
 
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -196,7 +196,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -207,7 +207,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -219,7 +219,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -231,7 +231,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -243,7 +243,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -255,7 +255,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -267,7 +267,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -279,7 +279,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -305,7 +305,7 @@ order. The pass-throughs continue until the list is sorted.
 |  Best-case  |  $O(1)$ |
 |   Average   |  $O(n^2)$ |
 
-#### Algorithm
+__Algorithm__
 
 1. Start at the begin of the list
 2. Compare element and next from it
@@ -323,7 +323,7 @@ order. The pass-throughs continue until the list is sorted.
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -335,7 +335,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -347,7 +347,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -359,7 +359,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -371,7 +371,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -383,7 +383,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -395,7 +395,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -407,7 +407,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -419,7 +419,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -431,7 +431,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -443,7 +443,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
@@ -455,7 +455,7 @@ In progress...
 
 In progress...
 
-#### Algorithm
+__Algorithm__
 
 In progress...
 
