@@ -14,10 +14,10 @@ Use make in ./ to make
 
 | make | Content |
 |:-----------:|:-----:|
-| `make c_search` |  searching algorithms in C |
-| `make cpp_search` |  searching algrotithms in C++ |
-| `make c_sort` | sorting algorithms in C |
-| `make cpp_sort` | sorting algorithms in C++ |
+| :`make c_search` |  :searching algorithms in C |
+| :`make cpp_search` |  :searching algrotithms in C++ |
+| :`make c_sort` | :sorting algorithms in C (currently not working) |
+| :`make cpp_sort` | :sorting algorithms in C++ (currently not working) |
 
 
 
