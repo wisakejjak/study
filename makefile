@@ -18,7 +18,7 @@ CPP_SRCS_SORT = $(wildcard $(PREF_SRC)/cpp_sort/*_sort.cpp)
 CPP_OBJS_SORT = $(subst $(PREF_SRC)/cpp_sort/, $(PREF_OBJ)/, ${CPP_SRCS_SORT:.cpp=_cpp.o})
 CPP_RUN_SORT = $(subst $(PREF_OBJ)/, $(PREF_RUN)/, ${CPP_OBJS_SORT:.o=.out})
 
-all : obj run c_search c_sort cpp_search cpp_sort
+all : obj run search sort
 
 obj :
 	mkdir $(PREF_OBJ)
@@ -29,6 +29,10 @@ run :
 clean :
 	rm -rf $(PREF_OBJ)
 	rm -rf $(PREF_RUN)
+
+search : $(C_RUN_SEARCH) $(CPP_RUN_SEARCH) obj run
+
+sort : $(C_RUN_SORT) $(CPP_RUN_SORT) obj run
 
 c_search : $(C_RUN_SEARCH) obj run
 
