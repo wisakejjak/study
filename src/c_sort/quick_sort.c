@@ -9,16 +9,7 @@ void swap(int *firstNumber, int *secondNumber){//swap function
     *secondNumber = tmp;
 }
 
-void printArray(int* pArray, int arraySize){//print array function
-    for(int i = 0; i < arraySize; i++){
-        printf("[%i]:[",i);
-        for (int j = 0; j < pArray[i]; j++){
-            printf("*");
-        }
-        printf("]\n");
-    }
-    printf("\n\n");
-}
+
 
 void quick_sort(int* pArray, int left, int right){//quick_sort function
     if (left < right){ 
