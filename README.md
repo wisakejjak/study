@@ -6,11 +6,11 @@ This repository has been created to store all the tutorial projects I've written
 I will try to place each tutorial project in C and C++.
 All these projects consist of search and sorting algorithms, which are the basis for other more complex projects. Also, these projects consist Data Structures.
 
-It's a great opportunity to learn Git, Markdown for readme and just help beginners learn C/C++.
+It's a great opportunity to learn Git, Make for build automation and  Markdown for readme and just help beginners learn C/C++.
 
 _Note: Use Table of content in Readme_
 
-Use make in ./ to make
+_Note: Use make in ./ to make_
 
 | make | Content |
 |:-----------|:-----|
