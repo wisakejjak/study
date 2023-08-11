@@ -19,10 +19,6 @@ Use make in ./ to make
 | `make c_sort` | sorting algorithms in C (currently not working) |
 | `make cpp_sort` | sorting algorithms in C++ (currently not working) |
 
-
-
-![Readme](./media/readme_hint.png)
-
 <a name="content">
  
  ## Content
