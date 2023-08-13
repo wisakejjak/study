@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <climits>
+
 //pA - pointer to array, N - size of array, x - desired number
 int binary_search (int* pA, int N, int x){ 
     int left_side = 0;// left border of array
@@ -31,8 +32,8 @@ int main (){
 		pA[i] = i;
 	int answer = binary_search (pA, N, x);//binary search
 	((answer < N)&&(answer >= 0)) 
-                            ? std::cout << "A[" << answer << "] = " << x << std::endl
-	                        : std::cout << x << " is not in array" << std::endl;//answer print
+    	? std::cout << "A[" << answer << "] = " << x << std::endl
+	   	: std::cout << x << " is not in array" << std::endl;//answer print
 	delete[] pA;//free the memory
 	return 0;
 }
