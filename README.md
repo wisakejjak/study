@@ -8,13 +8,6 @@ All these projects consist of search and sorting algorithms, which are the basis
 
 It's a great opportunity to learn Git, Make for build automation and  Markdown for readme and just help beginners learn C/C++.
 
-### TO DO:
-    - ncurses
-    - sorting algorithms
-    - data structures
-    - style check
-    - testing
-
 _Note: Use Table of content in Readme_
 
 _Note: Use make in ./ to make_
@@ -27,6 +20,15 @@ _Note: Use make in ./ to make_
 | `make c_sort`     | sorting algorithms in C (currently not working) |
 | `make cpp_sort`   | sorting algorithms in C++ (currently not working) |
 | `make sort`       | sorting algorithms in C and C++ (currently not working) |
+
+
+## In progress
+
++ ncurses
++ sorting algorithms
++ data structures
++ style check
++ testing
 
 <a name="content">
  
