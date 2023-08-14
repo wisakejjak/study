@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <limits.h>
+
 //pA - pointer to array, N - size of array, x - desired number
 int binary_search (int* pA, int N, int x){
     int left_side = 0; // left border of array
@@ -32,7 +33,7 @@ int main (void){
 		pA[i] = i;
 	} //array filling
 	int answer = binary_search (pA, N, x); //binary search
-	(answer != -1) ? printf ("nA[%d] = %d\n", answer, x)
+	(answer != -1) ? printf ("A[%d] = %d\n", answer, x)
 				    : printf ("%d is not in array\n", x); //answer print
 	free(pA); //free the memory
     	return 0;
