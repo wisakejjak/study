@@ -9,12 +9,9 @@ void swap(int *firstNumber, int *secondNumber){//swap function
     *secondNumber = tmp;
 }
 
-
-
 void quick_sort(int* pArray, int left, int right){//quick_sort function
     if (left < right){ 
-        printArray(pArray,right+1);//print array
-        int pivotIndex = floor( (left+right) / 2);//set index of pivot array
+        int pivotIndex = floor((left+right)/2);//set index of pivot array
         int pivot = pArray[pivotIndex]; // set element of array by index
         swap(&pArray[pivotIndex], &pArray[right]);//swap pointers (pivot and right)
         int i = left;
@@ -30,7 +27,6 @@ void quick_sort(int* pArray, int left, int right){//quick_sort function
     }
 }
 
-
 int main (void){
     printf("Size of array from 1 to %i:\n", INT_MAX);
     int arraySize;
@@ -39,14 +35,7 @@ int main (void){
     for(int i = 0; i < arraySize; i++){ //array filling (random number from 0 to 50)
         pArray[i] = rand() % 50;
     }
-    
-    printf("\n\t\t\tRaw Array:\n");//print raw array
-    printArray(pArray,arraySize);
-    printf("\n\t\t\tQuicksort iterations:\n");//print quicksort iterations
     quick_sort(pArray, 0, arraySize-1);//quick sort
-    printf("\n\t\t\tSorted Array:\n");//print sorted array
-    printArray(pArray,arraySize);
-
     free(pArray);//free the memory
     return 0;
 }
