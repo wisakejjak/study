@@ -2,17 +2,6 @@
 #include <cmath>
 #include <climits>
 
-void printArray(int* pArray, int arraySize){ //print array function
-    for(int i = 0; i < arraySize; i++){
-		std::cout << "[" << i << "]:[";
-        for (int j = 0; j < pArray[i]; j++){
-			std::cout << "*";
-        }
-		std::cout << "]" << std::endl;
-    }
-	std::cout << std::endl << std::endl;	
-}
-
 int bubble_sort(int* pArray, int arraySize){
 	for(int i = 0; i < arraySize - 1; i++){
 		for(int j = 0; j < arraySize - i - 1; j++){
@@ -35,9 +24,7 @@ int main(){
     for(int i = 0; i < arraySize; i++){ //array filling (random number from 0 to 50)
         pArray[i] = rand() % 50;
     }
-	printArray(pArray, arraySize);
 	bubble_sort(pArray, arraySize);//bubble sort
-	printArray(pArray, arraySize);
 	delete[] pArray;//free the memory	
 	return 0;
 }

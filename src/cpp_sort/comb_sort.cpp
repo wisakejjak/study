@@ -14,13 +14,7 @@ int main (){
     for(int i = 0; i < arraySize; i++){ //array filling (random number from 0 to INT_MAX-1)
         pArray[i] = rand() % INT_MAX-1;
     }
-    for(int i = 0; i < arraySize; i++){
-        std::cout << pArray[i] << " ";
-    }
     comb_sort(pArray, 0, arraySize-1); //comb sort
-    for(int i = 0; i < arraySize; i++){
-        std::cout  << pArray[i] << " ";
-    } 
     delete[] pArray; //free the memory
     return 0;
 }

@@ -1,16 +1,6 @@
 #include <iostream>
 #include <climits>
 
-void printArray(int* pArray, int sizeArray){
-    for(int i = 0; i < sizeArray; i++){
-        std::cout << "[" << i << "]:[";
-        for (int j = 0; j < pArray[i]; j++)
-            std::cout << "*";
-        std::cout << "]" << std::endl;
-    }
-    std::cout << std::endl << std::endl;
-}
-
 void merge(int* pArray, int* pLeftArray, int* pRightArray, int middle, int right){
     int i = 0, j = 0, k = 0;
     while (i < middle && j < right){
@@ -45,18 +35,6 @@ void merge_sort(int* pArray, int sizeArray){
     merge_sort(pLeftArray, middle);
     merge_sort(pRightArray, sizeArray - middle);
     merge(pArray, pLeftArray, pRightArray, middle, sizeArray-middle);
-    std::cout << std::endl << "\t\t\tMerge sort iterations:" << std::endl;
-    for(int i = 0; i < 5; i++){
-        std::cout << "[" << i << "]:[";
-        if ((pArray[i] > 50)||(pArray[i] < 0)) {
-            std::cout << " ]" << std::endl;
-            continue;
-        }
-        for (int j = 0; j < pArray[i]; j++)
-            std::cout << "*";
-        std::cout << "]" << std::endl;
-    }
-    std::cout << std::endl << std::endl;
     delete[] pLeftArray;
     delete[] pRightArray;
 }
@@ -69,11 +47,7 @@ int main(){
     for(int i = 0; i < arraySize; i++){
         pArray[i] = rand() % 50;
     }
-    std::cout << std::endl << "\t\t\tRaw Array:" << std::endl;
-    printArray(pArray, arraySize);
     merge_sort(pArray, arraySize);
-    std::cout << std::endl << "\t\t\tSorted Array:" << std::endl;
-    printArray(pArray, arraySize);
     delete[] pArray;
     return 0;
 }
