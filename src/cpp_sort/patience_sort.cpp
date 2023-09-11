@@ -7,7 +7,6 @@ int patience_sort(int* pArray, int startArray, int arraySize){
 }
 
 int main (){
-    std::cout << "Size of array from 1 to "<< INT_MAX << " : ";
     int arraySize;
     std::cin >> arraySize; //size of array
     int* pArray = new int [arraySize]; //allocate the memory

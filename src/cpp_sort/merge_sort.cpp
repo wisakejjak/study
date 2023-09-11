@@ -40,7 +40,6 @@ void merge_sort(int* pArray, int sizeArray){
 }
 
 int main(){
-    std::cout << "Size of array from 1 to " << INT_MAX <<":" << std::endl;
     int arraySize;
     std::cin >> arraySize;
     int* pArray = new int[arraySize];
