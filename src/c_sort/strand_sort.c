@@ -3,20 +3,19 @@
 #include <stdlib.h>
 #include <limits.h>
 
-int strand_sort(int* pArray, int arraySize){
+int strand_sort(int* pArray, int arraySize){ // strand sorting
 	return 0;
 }
 
 int main(){
-	printf("Size of array from 1 to %i:\n", INT_MAX);
     int arraySize;
-    scanf("%d", &arraySize); //size of array
-    int* pArray = (int*)malloc(arraySize*sizeof(int)); //allocate the memory
-    for(int i = 0; i < arraySize; i++){ //array filling (random number from 0 to 50)
+    scanf("%d", &arraySize); // size of array
+    int* pArray = (int*)malloc(arraySize*sizeof(int)); // allocate the memory
+    for(int i = 0; i < arraySize; i++){ // array filling (random number from 0 to 50)
         pArray[i] = rand() % 50;
     }
-    strand_sort(pArray, arraySize); //strand sort
-	free(pArray); //free the memory
+    strand_sort(pArray, arraySize); // strand sorting
+	free(pArray); // free the memory
 	return 0;
 }
 
