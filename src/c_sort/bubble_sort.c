@@ -2,13 +2,13 @@
 #include <math.h>
 #include <stdlib.h>
 #include <limits.h>
-#include <ncurses.h>
+// #include <ncurses.h>
 
 int bubble_sort(int* pArray, int arraySize){
 	for(int i = 0; i < arraySize - 1; i++){
 		for(int j = 0; j < arraySize - i - 1; j++){
 			if(pArray[j] > pArray[j+1]){
-				//Swapping without tmp variable (x = x + y; y = x - y; x = x - y)
+				// Swapping without tmp variable (x = x + y; y = x - y; x = x - y)
 				pArray[j]   = pArray[j] + pArray[j+1];
 				pArray[j+1] = pArray[j] - pArray[j+1];
 				pArray[j]   = pArray[j] - pArray[j+1];
@@ -18,6 +18,7 @@ int bubble_sort(int* pArray, int arraySize){
 	return 0;
 }
 /*
+ * 							IN PROGRESS NCURSES
  * Need to use printw or mvprintw or another asdfasfd_print_adfasff functions to display 
  * array bars. For example, A[0] displays on 1st row, A[1] on 2nd etc. Or idk i wanna
  * sleep. 
