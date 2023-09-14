@@ -25,11 +25,11 @@ int main (void){
 	int N;
 	scanf("%d", &N); // size of array
 	int x;
-	scanf("%d", &x); // searching number
+	scanf("%d", &x); // required number
 	int* pA = (int*) malloc(N*sizeof(int)); // allocate the memory
-	for (int i = 0; i < N; i++){
+	for (int i = 0; i < N; i++){ // array filling 
 		pA[i] = i;
-	} // array filling
+	}
 	// int answer = binary_search (pA, N, x); // binary search
 	free(pA); // free the memory
     return 0;
