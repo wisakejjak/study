@@ -15,7 +15,7 @@ int main (){
 	int N;
 	std::cin >> N; // size of array
 	int x;
-	std::cin >> x; // searching array
+	std::cin >> x; // required array
 	int* pA = new int[N]; // allocate the memory
 	for (int i = 0; i < N; i++) // array filling (random number from 0 to INT_MAX-1)
 		pA[i] = rand() % (INT_MAX-1);
