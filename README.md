@@ -13,14 +13,15 @@ _Note: Use Table of content in Readme_
 _Note: Use make in ./ to make_
 
 | make | Content |
-|:-----------|:-----|
+|:-----------:|:-----:|
 | `make c_search`   | searching algorithms in C |
 | `make cpp_search` | searching algrotithms in C++ |
 | `make search`     | searching algorithms in C and C++ |
 | `make c_sort`     | sorting algorithms in C (currently not working) |
 | `make cpp_sort`   | sorting algorithms in C++ (currently not working) |
 | `make sort`       | sorting algorithms in C and C++ (currently not working) |
-
+| `make all`        | searching and sorting algorithms in C and C++ (currently not working) |
+| `make clean`      | delete created executable and objective files |
 
 ## In progress
 
