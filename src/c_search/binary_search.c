@@ -9,7 +9,7 @@ int binary_search (int* pA, int N, int x){
     int right_side = N-1; // right border of array
     int middle = 0; // middle of array = 0
     while (left_side <= right_side){
-        middle = floor((left_side + right_side)*0.5); // real middle of array
+        middle = floor((left_side + right_side)/2); // real middle of array
         if (pA[middle] < x){ // searching on left side
             left_side = middle + 1;
         }

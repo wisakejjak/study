@@ -189,12 +189,27 @@ __Algorithm__
 
 ### In-place merge sort
 
-In progress...
+In-place merge sort is an efficient sorting algorithm that works by repeatedly dividing the input array into smaller subarrays, sorting them, and then merging them back together in-place. It is called "in-place" because it does not require extra memory to perform the sorting process. The main idea behind the in-place merge sort is to use a combination of merging techniques and recursion to sort the array. Here are the key steps involved in the algorithm:
 
+1. Divide the input array into two halves by finding the middle index.
+2. Recursively apply the merge sort algorithm to both halves.
+3. Merge the two sorted subarrays back into the original array using an in-place merging technique.
+
+| Perfromance | Big O |
+|:-----------:|:-----:|
+|  Worst-case | $O(n \times log (n))$ |
+|  Best-case  | $O(n \times log (n))$ |
+|   Average   | $O(n \times log (n))$ |
 
 __Algorithm__
 
-In progress...
+1. If the input array has only one element or is empty, it is already considered sorted.
+2. Divide the array into two halves by finding the middle index.
+3. Recursively apply the in-place merge sort algorithm to the first half of the array.
+4. Recursively apply the in-place merge sort algorithm to the second half of the array.
+5. Merge the two sorted halves back into the original array using the in-place merging technique.
+6. Repeat steps 2-5 until the entire array is sorted.
+
 
 [:arrow_up:Back to top](#content)
 

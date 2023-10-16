@@ -1,6 +1,6 @@
 CC = gcc
 CXX = g++
-CFLAGS = -Wall -Werror
+CFLAGS = -Wall -Werror 
 CPPFLAGS = -Wall -Werror
 PREF_SRC = ./src
 PREF_OBJ = ./obj
