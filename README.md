@@ -30,6 +30,7 @@ _Note: Use make in ./ to make_
 + data structures
 + style check
 + testing
++ in-place merge sort testing
 
 <a name="content">
  
