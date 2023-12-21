@@ -1,5 +1,7 @@
 ## About
 
+⛄ Currently frozen ⛄
+
 > If you want to learn something, try to teach it
 
 This repository has been created to store all the tutorial projects I've written.
